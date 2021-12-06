@@ -1,8 +1,9 @@
 // base-x encoding / decoding
+// Copyright (c) 2021-2022 Heptazhou
 // Copyright (c) 2018 base-x contributors
 // Copyright (c) 2014-2018 The Bitcoin Core developers (base58.cpp)
-// Distributed under the MIT software license, see the accompanying
-// file LICENSE or http://www.opensource.org/licenses/mit-license.php.
+// Distributed under the MIT license and AGPL license, see the accompanying file LICENSE, or
+// <https://opensource.org/licenses/mit> and <https://www.gnu.org/licenses/agpl>.
 
 function base (ALPHABET: string): base.BaseConverter {
   if (ALPHABET.length >= 255) throw new TypeError('Alphabet too long')
